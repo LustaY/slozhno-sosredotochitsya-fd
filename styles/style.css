@@ -54,7 +54,7 @@
   top: var(--page-padding);
   right: calc(9px + var(--page-padding));
   color: var(--accent-color);
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: var(--project-font-family);
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -80,7 +80,7 @@
   border: 1px solid transparent;
   background-color: transparent;
   color: var(--theme-switch-color);
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: var(--project-font-family);
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
@@ -118,7 +118,7 @@
 .title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--header-title-color);
-  font-family: "IBM Plex mono", sans-serif;
+  font-family: var(--project-font-family);
   font-weight: 700;
   line-height: 95.7px;
   text-transform: lowercase;
@@ -127,7 +127,7 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--header-description-color);
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: var(--project-font-family);
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -142,7 +142,7 @@
 .section {
   display: grid;
   gap: 20px;
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: var(--project-font-family);
 }
 
 .section.pictures {
@@ -195,7 +195,7 @@
 
 .section__card-link:hover {
   border-block-end: 1px solid var(--text-color);
-  font-family: IBM Plex Mono;
+  font-family: var(--project-font-family);
 }
 
 .section__card-link:focus {
@@ -227,6 +227,7 @@
   position: relative;
   inline-size: 100%;
   block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .footer__title {
@@ -293,7 +294,7 @@
 
   .gallery__item:nth-child(1) {
     grid-column: span 2;
-  } 
+  }
 
   .gallery__item:nth-child(2) {
     grid-row: span 2;
