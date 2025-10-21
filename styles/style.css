@@ -231,7 +231,6 @@
 }
 
 .footer__title {
-  padding-left: 10px;
   text-shadow: 2px 2px 0 var(--accent-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
@@ -317,6 +316,11 @@
 @media (width >= 1024px) {
   .header {
     min-block-size: 768px;
+  }
+
+  .header__title-decor {
+    margin-top: 5px;
+    max-width: 50%;
   }
 
   .title {
