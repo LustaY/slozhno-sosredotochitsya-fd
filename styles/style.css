@@ -321,8 +321,8 @@
   }
 
   .header__title-decor {
-    margin-top: 13px;
-    margin-right: 2px;
+    margin-top: 12px;
+    margin-right: 1px;
     max-width: 50%;
   }
 
@@ -364,6 +364,6 @@
   }
 
   .footer__title {
-    margin-inline-start: 0px;
+    margin-inline-start: 2px;
   }
 }
