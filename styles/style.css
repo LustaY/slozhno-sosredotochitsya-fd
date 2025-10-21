@@ -354,4 +354,8 @@
   .question .section__card {
     grid-template-rows: min-content;
   }
+
+  .footer__title {
+    margin-inline-start: -10px;
+  }
 }
