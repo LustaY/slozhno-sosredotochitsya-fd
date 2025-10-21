@@ -321,7 +321,7 @@
   }
 
   .header__title-decor {
-    margin: clamp(10px , 2.65vw , 20px);
+    margin-top: 5px;
     max-width: 50%;
   }
 
