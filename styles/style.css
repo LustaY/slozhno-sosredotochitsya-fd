@@ -364,6 +364,7 @@
   }
 
   .footer__title {
+    padding-left: 20px;
     margin-inline-start: 2px;
   }
 }
